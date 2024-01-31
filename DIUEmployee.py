@@ -4,7 +4,7 @@ class Employee:
         self.job_title = job_title
         self.salary = salary
     def getName(self):
-        return self.name
+        return self.nameper
     def display(self):
         print("Name:", self.name)
         print("Job Title:", self.job_title)
