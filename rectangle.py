@@ -11,7 +11,8 @@ class Rectangle:
     def setWidth(self,width):
         self.width = width
 
-rec1 = Rectangle(2,2)
+rec1 = Rectangle(2,2)\
+
 print(f"The area of rectangle is {rec1.getArea()}")
 print(f"The perimeter of rectangle is {rec1.getPerimeter()}\n")
 
