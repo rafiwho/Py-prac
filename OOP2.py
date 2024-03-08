@@ -95,7 +95,7 @@ def player_vs_ai():
         show_value(ch, player_name)
         print(f"{player_name} your score is: {player_score}")
         match_round += 1
-        time.sleep(1.5)
+        time.sleep(1)
 
         show_octagons(player_name,player_score,ai_name,ai_score)
         print("\n\nIt's the AI's turn...")
@@ -111,7 +111,7 @@ def player_vs_ai():
         show_value(ch, ai_name)
         print(f"AI your score is: {ai_score}")
         match_round += 1
-        time.sleep(1.5)
+        time.sleep(1)
 
     show_octagons(player_name,player_score,ai_name,ai_score)
     print("\nFinal Score: "
@@ -150,7 +150,7 @@ def multiplayer():
         show_value(ch, player1_name)
         print(f"{player1_name} your score is: {player1_score}")
         match_round += 1
-        time.sleep(1.5)
+        time.sleep(1)
 
         show_octagons(player1_name,player1_score,player2_name,player2_score)
         print(f"\n\n{player2_name} it's your turn...")
@@ -170,7 +170,7 @@ def multiplayer():
         show_value(ch, player2_name)
         print(f"{player2_name} your score is: {player2_score}")
         match_round += 1
-        time.sleep(1.5)
+        time.sleep(1)
 
     show_octagons(player1_name,player1_score,player2_name,player2_score)
     print("\nFinal Score: "
